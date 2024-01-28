@@ -1,21 +1,37 @@
 {
-  "name": "dark-minimalist",
+  "name": "dark-minimalist-theme",
   "displayName": "Dark Minimalist",
   "description": "A vscode dark theme using the Dark Minimalist color palette",
-  "version": "0.0.1",
+  "version": "1.0.1",
+  "publisher": "LeonN534",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
   ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Dark Minimalist theme",
+        "label": "Dark Minimalist",
         "uiTheme": "vs-dark",
         "path": "./themes/Dark Minimalist theme-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeonN534/Dark-Minimalist-vscode"
+  },
+  "icon": "assets/logo/128x128.png"
 }
