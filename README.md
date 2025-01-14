@@ -4,9 +4,8 @@
 </h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LeonN534/Dark-Minimalist-vscode/main/assets/preview/preview.png"/>
+  <img src="https://raw.githubusercontent.com/LeonN534/Dark-Minimalist-vscode/main/assets/preview/preview.png" style="border-radius:12px;"/>
 </p>
-
 
 ## Usage
 
