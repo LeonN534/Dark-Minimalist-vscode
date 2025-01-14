@@ -80,7 +80,7 @@
     "debugConsole.errorForeground": "#f67d7b",
     "debugConsole.sourceForeground": "#fdddf5",
     "debugConsoleInputIcon.foreground": "#e5e5e5",
-    "diffEditor.border": "#605f6b",   
+    "diffEditor.border": "#605f6b",
     "diffEditor.insertedTextBackground": "#96f6851a",
     "diffEditor.removedTextBackground": "#f67d7b1a",
     "diffEditor.insertedLineBackground": "#96f68526",
@@ -113,7 +113,7 @@
     "editorCodeLens.foreground": "#868592",
     "editorCursor.background": "#2b2a33",
     "editorCursor.foreground": "#fdddf5",
-    "editorGroup.border": "#605f6b", 
+    "editorGroup.border": "#605f6b",
     "editorGroup.dropBackground": "#605f6b33",
     "editorGroup.emptyBackground": "#2b2a33",
     "editorGroupHeader.tabsBackground": "#1c1b22",
@@ -222,8 +222,8 @@
     "listFilterWidget.background": "#3b3a44",
     "listFilterWidget.noMatchesOutline": "#f67d7b",
     "listFilterWidget.outline": "#00000000",
-    "tree.indentGuidesStroke": "#9e9da9",
-    "tree.inactiveIndentGuidesStroke": "#4d4b56",
+    "tree.indentGuidesStroke": "#00000000",
+    "tree.inactiveIndentGuidesStroke": "#00000000",
     "menu.background": "#1c1b22",
     "menu.border": "#1c1b22ff",
     "menu.foreground": "#e5e5e5",
@@ -647,20 +647,14 @@
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#757480",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "string",
-        "punctuation.definition.string"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "#96f685"
       }
@@ -808,10 +802,7 @@
       }
     },
     {
-      "scope": [
-        "variable.parameter",
-        "meta.function.parameters"
-      ],
+      "scope": ["variable.parameter", "meta.function.parameters"],
       "settings": {
         "foreground": "#f7859f",
         "fontStyle": "italic"
@@ -819,10 +810,7 @@
     },
     {
       "name": "Built-ins",
-      "scope": [
-        "constant.language",
-        "support.function.builtin"
-      ],
+      "scope": ["constant.language", "support.function.builtin"],
       "settings": {
         "foreground": "#f67d7b"
       }
@@ -884,10 +872,7 @@
     },
     {
       "name": "String template interpolation",
-      "scope": [
-        "string.template variable",
-        "string variable"
-      ],
+      "scope": ["string.template variable", "string variable"],
       "settings": {
         "foreground": "#e5e5e5"
       }
@@ -927,9 +912,7 @@
     },
     {
       "name": "C++ operators",
-      "scope": [
-        "storage.modifier.reference.cpp"
-      ],
+      "scope": ["storage.modifier.reference.cpp"],
       "settings": {
         "foreground": "#85f7cc"
       }
@@ -987,9 +970,7 @@
     },
     {
       "name": "CSS vendored property names",
-      "scope": [
-        "support.type.vendored.property-name"
-      ],
+      "scope": ["support.type.vendored.property-name"],
       "settings": {
         "foreground": "#85f7f1"
       }
@@ -1050,20 +1031,14 @@
     },
     {
       "name": "JSON/YAML constants",
-      "scope": [
-        "constant.language.json",
-        "constant.language.yaml"
-      ],
+      "scope": ["constant.language.json", "constant.language.yaml"],
       "settings": {
         "foreground": "#f7a285"
       }
     },
     {
       "name": "YAML anchors",
-      "scope": [
-        "entity.name.type.anchor.yaml",
-        "variable.other.alias.yaml"
-      ],
+      "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
       "settings": {
         "foreground": "#f3eb84",
         "fontStyle": ""
@@ -1138,18 +1113,14 @@
     },
     {
       "name": "dotenv left-hand side assignments",
-      "scope": [
-        "variable.other.env"
-      ],
+      "scope": ["variable.other.env"],
       "settings": {
         "foreground": "#85bef7"
       }
     },
     {
       "name": "dotenv reference to existing env variable",
-      "scope": [
-        "string.quoted variable.other.env"
-      ],
+      "scope": ["string.quoted variable.other.env"],
       "settings": {
         "foreground": "#e5e5e5"
       }
@@ -1231,9 +1202,7 @@
     },
     {
       "name": "HTML/XML-like <tags/>",
-      "scope": [
-        "entity.name.tag"
-      ],
+      "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#85bef7",
         "fontStyle": ""
@@ -1257,18 +1226,14 @@
     },
     {
       "name": "HTML/XML tag attribute values",
-      "scope": [
-        "entity.other.attribute-name"
-      ],
+      "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#f3eb84"
       }
     },
     {
       "name": "Components",
-      "scope": [
-        "meta.tag support.class.component"
-      ],
+      "scope": ["meta.tag support.class.component"],
       "settings": {
         "foreground": "#85bef7",
         "fontStyle": ""
@@ -1276,10 +1241,7 @@
     },
     {
       "name": "Annotations",
-      "scope": [
-        "punctuation.definition.annotation",
-        "storage.type.annotation"
-      ],
+      "scope": ["punctuation.definition.annotation", "storage.type.annotation"],
       "settings": {
         "foreground": "#f7a285"
       }
@@ -1350,10 +1312,7 @@
     },
     {
       "name": "Node constants as keywords (module, etc.)",
-      "scope": [
-        "support.constant.node",
-        "support.type.object.module.js"
-      ],
+      "scope": ["support.constant.node", "support.type.object.module.js"],
       "settings": {
         "foreground": "#d484f4"
       }
@@ -1417,9 +1376,7 @@
     },
     {
       "name": "Vue components",
-      "scope": [
-        "support.class.component.vue"
-      ],
+      "scope": ["support.class.component.vue"],
       "settings": {
         "foreground": "#85bef7"
       }
@@ -1582,10 +1539,7 @@
     },
     {
       "name": "Markdown auto links",
-      "scope": [
-        "punctuation.definition.link",
-        "markup.underline.link"
-      ],
+      "scope": ["punctuation.definition.link", "markup.underline.link"],
       "settings": {
         "foreground": "#85bef7"
       }
@@ -1634,10 +1588,7 @@
     },
     {
       "name": "Markdown quotes",
-      "scope": [
-        "markup.quote",
-        "punctuation.definition.quote.begin"
-      ],
+      "scope": ["markup.quote", "punctuation.definition.quote.begin"],
       "settings": {
         "foreground": "#f685e6"
       }
@@ -1695,10 +1646,7 @@
     },
     {
       "name": "PHP Attributes",
-      "scope": [
-        "support.attribute.builtin",
-        "meta.attribute.php"
-      ],
+      "scope": ["support.attribute.builtin", "meta.attribute.php"],
       "settings": {
         "foreground": "#f3eb84"
       }
@@ -1743,9 +1691,7 @@
     },
     {
       "name": "Python double underscore functions",
-      "scope": [
-        "support.function.magic.python"
-      ],
+      "scope": ["support.function.magic.python"],
       "settings": {
         "foreground": "#85f7f1",
         "fontStyle": "italic"
@@ -1791,9 +1737,7 @@
     },
     {
       "name": "python function calls",
-      "scope": [
-        "meta.function-call.python"
-      ],
+      "scope": ["meta.function-call.python"],
       "settings": {
         "foreground": "#85bef7"
       }
@@ -1828,9 +1772,7 @@
     },
     {
       "name": "entity.name.type",
-      "scope": [
-        "support.type.python"
-      ],
+      "scope": ["support.type.python"],
       "settings": {
         "foreground": "#f7a285"
       }
@@ -1844,10 +1786,7 @@
     },
     {
       "name": "Arguments accessed later in the function body",
-      "scope": [
-        "meta.indexed-name.python",
-        "meta.item-access.python"
-      ],
+      "scope": ["meta.indexed-name.python", "meta.item-access.python"],
       "settings": {
         "foreground": "#f7859f",
         "fontStyle": "italic"
@@ -1984,10 +1923,7 @@
     },
     {
       "name": "Rust lifetime",
-      "scope": [
-        "storage.modifier.lifetime.rust",
-        "entity.name.type.lifetime"
-      ],
+      "scope": ["storage.modifier.lifetime.rust", "entity.name.type.lifetime"],
       "settings": {
         "foreground": "#85bef7",
         "fontStyle": "italic"
@@ -2030,9 +1966,7 @@
     },
     {
       "name": "Rust function parameters",
-      "scope": [
-        "meta.function.definition.rust variable.other.rust"
-      ],
+      "scope": ["meta.function.definition.rust variable.other.rust"],
       "settings": {
         "foreground": "#f7859f"
       }
