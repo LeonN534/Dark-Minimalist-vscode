@@ -137,7 +137,7 @@
     "editorLineNumber.activeForeground": "#e5e5e5",
     "editorLineNumber.foreground": "#868592",
     "editorLink.activeForeground": "#abc0f9",
-    "editorMarkerNavigation.background": "#e5e5e5",
+    "editorMarkerNavigation.background": "#1c1b22",
     "editorMarkerNavigationError.background": "#f67d7b",
     "editorMarkerNavigationInfo.background": "#85bef7",
     "editorMarkerNavigationWarning.background": "#f3eb84",
